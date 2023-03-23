@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	var x, y, z float64
+	var x, y, z int
 
 	fmt.Print("qual é o valor de x?")
 	fmt.Scan(&x)
@@ -14,5 +14,5 @@ func main() {
 	fmt.Scan(&z)
 
 	resultado := x + y + z
-	fmt.Print("qual é a soma das 3 variavéis?", resultado)
+	fmt.Print("a soma das 3 Variavéis é", resultado)
 }
